@@ -1,0 +1,10 @@
+<?php
+/**
+ * Copyright © Rob Aimes - https://aimes.eu
+ */
+/** @var $block \Aimes\SimpleLabels\Block\ProductLabel */
+?>
+<?php if($block->isEnabled()): ?>
+    <div class="product-labels" data-mage-init='{ "aimes/simpleLabels": <?= $block->getJsConfig() ?> }'>
+    </div>
+<?php endif; ?>
