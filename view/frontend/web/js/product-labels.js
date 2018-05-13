@@ -4,24 +4,7 @@ define([
     "use strict";
     $.widget('aimes.simpleLabels', {
         options: {
-            labels: {
-                newLabel: {
-                    id: 'new',
-                    text: 'NEW',
-                    color: '#FFFFFF',
-                    background: '#222222',
-                    width: 100,
-                    height: 30
-                },
-                saleLabel: {
-                    id: 'sale',
-                    text: 'SALE',
-                    color: '#FF0000',
-                    background: '#AB8F8E',
-                    width: 100,
-                    height: 30
-                }
-            }
+            labels: {}
         },
 
         _create: function() {
